@@ -66,3 +66,17 @@ here have genshin
 
 
 https://gravatar.com/xinjiav2
+
+
+alright so apparently i need flags so a genshin advertisement is not going to cut it so uhh
+![alt text](image-1.png)
+
+![alt text](image-2.png)
+here have the flag of china
+
+![alt text](image-3.png)
+and the flag of the us
+
+and now have another genshin advertisement
+![alt text](image-4.png)
+
