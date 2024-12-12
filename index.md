@@ -35,6 +35,25 @@ anyway have rachits github and belows his entire linkedin :D
 i need to update ss but heres his linkedin link
 
 <a href="https://www.linkedin.com/in/rachit-jaiswal-a534b5196" target="_blank" class="button">
-  <button>rachits linkedin</button>
+  <button>Rachit's linkedin</button>
   </a>
   <style>
+
+<a href="https://github.com/rachit-j" target="_blank" class="button">
+  <button>Rachit's github</button>
+  </a>
+  <style>
+
+<a href="https://academicsandathleticsforall.org/team" target="_blank" class="button">
+  <button>Rachit's non-profit</button>
+  </a>
+  <style>
+
+  <a href="https://ftcscorpio.com/2022-2023-members/" target="_blank" class="button">
+  <button>Rachit's FTC Team scorpio team</button>
+  </a>
+  <style>
+
+    In case you have not noticed I am kinda addicted to anything Rachit related
+
+    Anyway I got the signup to linkedin thing so i cannot put the images of rachit on there sadly.
