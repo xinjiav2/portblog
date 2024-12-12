@@ -94,3 +94,7 @@ and now have another genshin advertisement
 <body>
 <img src="https://pbs.twimg.com/media/FaMluJ3akAA8gut.jpg:large">
 
+
+<br>
+
+please help this is the only page that works every thing else isint formatting right or it just isint showing up ont he about page what to do waht to do rachit help
