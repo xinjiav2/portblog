@@ -72,3 +72,7 @@ In case you have not noticed I am kinda addicted to anything Rachit related
 
 Anyway I got the signup to linkedin thing so i cannot put the images of rachit on there sadly.
 
+<a href="https://nighthawkcoders.github.io/portfolio_2025/devops/tools/verify" target="_blank" class="button">
+  <button>verify tools bc apparently we need it</button>
+  </a>
+  <style>
