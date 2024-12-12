@@ -39,21 +39,31 @@ i need to update ss but heres his linkedin link
   </a>
   <style>
 
+<br>
+
 <a href="https://github.com/rachit-j" target="_blank" class="button">
   <button>Rachit's github</button>
   </a>
   <style>
+
+<br>
 
 <a href="https://academicsandathleticsforall.org/team" target="_blank" class="button">
   <button>Rachit's non-profit</button>
   </a>
   <style>
 
+<br>
+
   <a href="https://ftcscorpio.com/2022-2023-members/" target="_blank" class="button">
   <button>Rachit's FTC Team scorpio team</button>
   </a>
   <style>
 
-    In case you have not noticed I am kinda addicted to anything Rachit related
+<br>
 
-    Anyway I got the signup to linkedin thing so i cannot put the images of rachit on there sadly.
+In case you have not noticed I am kinda addicted to anything Rachit related
+
+ <br>
+
+Anyway I got the signup to linkedin thing so i cannot put the images of rachit on there sadly.
