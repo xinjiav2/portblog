@@ -101,7 +101,7 @@ so im gonna add that eventually
 hopefully this is a snake 
 
 <div style="display: flex; flex-wrap: wrap; gap: 10px;">
-    <a href="{{site.baseurl}}/snake-game" style="text-decoration: none;">
+    <a href="{{site.baseurl}}/snake" style="text-decoration: none;">
         <div style="background-color: #BBDE22; color: black; padding: 10px 20px; border-radius: 5px; font-weight: bold;">
             Snake Game
         </div>

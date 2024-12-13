@@ -1,11 +1,11 @@
-hi!
-i tried to make a snake game here
-
 ---
 layout: base
 title: Snake
-permalink: /snake-game
+permalink: /snake
 ---
+hi!
+i tried to make a snake game here
+
 
 <style>
 
