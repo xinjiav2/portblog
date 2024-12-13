@@ -4,7 +4,7 @@ i tried to make a snake game here
 ---
 layout: base
 title: Snake
-permalink: /snake/
+permalink: /snake-game
 ---
 
 <style>
