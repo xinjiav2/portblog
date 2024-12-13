@@ -94,54 +94,6 @@ So my buttons weere kinda not working so i inputted it into chatpgt and this is 
 </body>
 </html>
 
-
-<a href="https://github.com/xinjiav2/test2/blob/main/_notebooks/Foundation/B-tools_and_equipment/2023-08-22-devops_tools-verify.ipynb" target="_blank" class="button">
-  <button>Validate notebook i think?</button>
-  </a>
-  <style>
-
-
-
-<a href="https://www.linkedin.com/in/rachit-jaiswal-a534b5196" target="_blank" class="button">
-  <button>Rachit's linkedin</button>
-  </a>
-  <style>
-
-<br>
-</div>
-
-<a href="https://github.com/rachit-j" target="_blank" class="button">
-  <button>Rachit's github</button>
-  </a>
-  <style>
-
-<br>
-</div>
-
-<a href="https://academicsandathleticsforall.org/team" target="_blank" class="button">
-  <button>Rachit's non-profit</button>
-  </a>
-  <style>
-
-<br>
-</div>
-
-  <a href="https://ftcscorpio.com/2022-2023-members/" target="_blank" class="button">
-  <button>Rachit's FTC Team scorpio team</button>
-  </a>
-  <style>
-
-<br>
-</div>
-
-In case you have not noticed I am kinda addicted to anything Rachit related
-
- <br>
-
-Anyway I got the signup to linkedin thing so i cannot put the images of rachit on there sadly.
-
-<a href="https://nighthawkcoders.github.io/portfolio_2025/devops/tools/verify" target="_blank" class="button">
-  <button>verify tools bc apparently we need it</button>
-  </a>
-  <style>
-
+hi!
+apparently i got permission to have rachit images
+so im gonna add that eventually
