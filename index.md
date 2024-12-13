@@ -97,3 +97,15 @@ So my buttons weere kinda not working so i inputted it into chatpgt and this is 
 hi!
 apparently i got permission to have rachit images
 so im gonna add that eventually
+
+hopefully this is a snake 
+
+<div style="display: flex; flex-wrap: wrap; gap: 10px;">
+    <a href="{{site.baseurl}}/snake" style="text-decoration: none;">
+        <div style="background-color: #BBDE22; color: black; padding: 10px 20px; border-radius: 5px; font-weight: bold;">
+            Snake Game
+        </div>
+     </a>
+</div>
+
+<br>
