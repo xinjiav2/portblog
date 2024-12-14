@@ -109,3 +109,14 @@ hopefully this is a snake
 </div>
 
 <br>
+
+
+<div style="display: flex; flex-wrap: wrap; gap: 10px;">
+    <a href="{{site.baseurl}}/problemos" style="text-decoration: none;">
+        <div style="background-color: #38afad; color: black; padding: 10px 20px; border-radius: 5px; font-weight: bold;">
+            Snake Game
+        </div>
+     </a>
+</div>
+
+<br>
