@@ -147,7 +147,7 @@ i tried to make a snake game here
         let snake_dir;
         let snake_next_dir;
         let snake_speed;
-        let food = new Image();
+        let foodImage = new Image();
         foodImage.src = "apple.png"; // Path to the image file
         let score;
         let wall;
