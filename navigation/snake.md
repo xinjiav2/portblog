@@ -5,6 +5,8 @@ permalink: /snake
 ---
 hi!
 i tried to make a snake game here
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
