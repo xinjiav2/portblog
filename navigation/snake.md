@@ -114,6 +114,8 @@ i tried to make a snake game here
     </div>
 </div>
 
+
+
 <script>
     (function(){
         /* Attributes of Game */
@@ -145,7 +147,8 @@ i tried to make a snake game here
         let snake_dir;
         let snake_next_dir;
         let snake_speed;
-        let food = {x: 0, y: 0};
+        let food = new Image();
+        foodImage.src = "apple.png"; // Path to the image file
         let score;
         let wall;
         /* Display Control */
@@ -330,10 +333,15 @@ i tried to make a snake game here
         }
         /* Dot for Food or Snake part */
         /////////////////////////////////////////////////////////////
-        let activeDot = function(x, y){
-            ctx.fillStyle = "#FFFFFF";
-            ctx.fillRect(x * BLOCK, y * BLOCK, BLOCK, BLOCK);
-        }
+         let activeDot = function(x, y, isFood = false) {
+       if (isFood) {
+          ctx.drawImage(foodImage, x * BLOCK, y * BLOCK, BLOCK, BLOCK);
+        } else {
+           ctx.fillStyle = "#FFFFFF";
+           ctx.fillRect(x * BLOCK, y * BLOCK, BLOCK, BLOCK);
+       }
+    };
+
         /* Random food placement */
         /////////////////////////////////////////////////////////////
         let addFood = function(){
