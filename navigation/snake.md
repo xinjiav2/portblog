@@ -6,7 +6,6 @@ permalink: /snake
 hi!
 i tried to make a snake game here
 
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -172,19 +171,14 @@ i tried to make a snake game here
 
         // Change the direction of the snake based on arrow keys
         function changeDir(key){
-            switch(key) {
-                case 37:    // left arrow
-                    if (snake_dir !== 1) snake_next_dir = 3; 
-                    break;
-                case 38:    // up arrow
-                    if (snake_dir !== 2) snake_next_dir = 0; 
-                    break;
-                case 39:    // right arrow
-                    if (snake_dir !== 3) snake_next_dir = 1;
-                    break;
-                case 40:    // down arrow
-                    if (snake_dir !== 0) snake_next_dir = 2;
-                    break;
+            if (key === 37 && snake_dir !== 1) { // left arrow
+                snake_next_dir = 3;
+            } else if (key === 38 && snake_dir !== 2) { // up arrow
+                snake_next_dir = 0;
+            } else if (key === 39 && snake_dir !== 3) { // right arrow
+                snake_next_dir = 1;
+            } else if (key === 40 && snake_dir !== 0) { // down arrow
+                snake_next_dir = 2;
             }
         }
 
@@ -223,8 +217,11 @@ i tried to make a snake game here
         function mainLoop() {
             let _x = snake[0].x;
             let _y = snake[0].y;
+
+            // Update the snake's direction
             snake_dir = snake_next_dir;
 
+            // Move the snake based on its direction
             switch(snake_dir){
                 case 0: _y--; break;
                 case 1: _x++; break;
@@ -232,9 +229,10 @@ i tried to make a snake game here
                 case 3: _x--; break;
             }
 
-            snake.pop();
-            snake.unshift({x: _x, y: _y});
+            snake.pop(); // Remove last part of the snake
+            snake.unshift({x: _x, y: _y}); // Add the new head
 
+            // Wall check
             if (wall === 1) {
                 if (snake[0].x < 0 || snake[0].x === canvas.width / BLOCK || snake[0].y < 0 || snake[0].y === canvas.height / BLOCK) {
                     showScreen(SCREEN_GAME_OVER);
@@ -249,6 +247,7 @@ i tried to make a snake game here
                 }
             }
 
+            // Check if snake collides with itself
             for (let i = 1; i < snake.length; i++) {
                 if (snake[0].x === snake[i].x && snake[0].y === snake[i].y) {
                     showScreen(SCREEN_GAME_OVER);
@@ -256,6 +255,7 @@ i tried to make a snake game here
                 }
             }
 
+            // Check if snake eats food
             if (checkCollision(snake[0].x, snake[0].y, food.x, food.y)) {
                 snake.push({x: snake[snake.length - 1].x, y: snake[snake.length - 1].y});
                 score++;
@@ -263,13 +263,17 @@ i tried to make a snake game here
                 addFood();
             }
 
+            // Clear the canvas
             ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+            // Draw the snake and food
             for (let i = 0; i < snake.length; i++) {
                 drawBlock(snake[i].x, snake[i].y);
             }
 
             drawBlock(food.x, food.y, true);
 
+            // Call the next frame
             setTimeout(mainLoop, snake_speed);
         }
 
@@ -279,8 +283,8 @@ i tried to make a snake game here
             score = 0;
             updateScore(score);
             snake = [{x: 5, y: 5}];
-            snake_dir = 1;
-            snake_next_dir = 1;
+            snake_dir = 1; // Initially moving right
+            snake_next_dir = 1; // Initially moving right
             addFood();
             mainLoop();
         }
