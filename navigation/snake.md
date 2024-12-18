@@ -5,7 +5,6 @@ permalink: /snake
 ---
 hi!
 i tried to make a snake game here
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -188,4 +187,138 @@ i tried to make a snake game here
         }
 
         // Update score display
-        function updateScore(sco
+        function updateScore(score_val){
+            ele_score.innerHTML = score_val;
+        }
+
+        // Add food randomly to the screen
+        function addFood(){
+            food.x = Math.floor(Math.random() * (canvas.width / BLOCK));
+            food.y = Math.floor(Math.random() * (canvas.height / BLOCK));
+            for (let i = 0; i < snake.length; i++) {
+                if (food.x === snake[i].x && food.y === snake[i].y) {
+                    addFood();
+                }
+            }
+        }
+
+        // Draw the snake or food
+        function drawBlock(x, y, isFood = false) {
+            if (isFood) {
+                ctx.drawImage(foodImage, x * BLOCK, y * BLOCK, BLOCK, BLOCK);
+            } else {
+                ctx.fillStyle = "#FFFFFF";
+                ctx.fillRect(x * BLOCK, y * BLOCK, BLOCK, BLOCK);
+            }
+        }
+
+        // Check if snake collides with food
+        function checkCollision(x, y, _x, _y){
+            return (x === _x && y === _y);
+        }
+
+        // Main Game Loop
+        function mainLoop() {
+            let _x = snake[0].x;
+            let _y = snake[0].y;
+            snake_dir = snake_next_dir;
+
+            switch(snake_dir){
+                case 0: _y--; break;
+                case 1: _x++; break;
+                case 2: _y++; break;
+                case 3: _x--; break;
+            }
+
+            snake.pop();
+            snake.unshift({x: _x, y: _y});
+
+            if (wall === 1) {
+                if (snake[0].x < 0 || snake[0].x === canvas.width / BLOCK || snake[0].y < 0 || snake[0].y === canvas.height / BLOCK) {
+                    showScreen(SCREEN_GAME_OVER);
+                    return;
+                }
+            } else {
+                for (let i = 0; i < snake.length; i++) {
+                    if (snake[i].x < 0) snake[i].x = canvas.width / BLOCK;
+                    if (snake[i].x === canvas.width / BLOCK) snake[i].x = 0;
+                    if (snake[i].y < 0) snake[i].y = canvas.height / BLOCK;
+                    if (snake[i].y === canvas.height / BLOCK) snake[i].y = 0;
+                }
+            }
+
+            for (let i = 1; i < snake.length; i++) {
+                if (snake[0].x === snake[i].x && snake[0].y === snake[i].y) {
+                    showScreen(SCREEN_GAME_OVER);
+                    return;
+                }
+            }
+
+            if (checkCollision(snake[0].x, snake[0].y, food.x, food.y)) {
+                snake.push({x: snake[snake.length - 1].x, y: snake[snake.length - 1].y});
+                score++;
+                updateScore(score);
+                addFood();
+            }
+
+            ctx.clearRect(0, 0, canvas.width, canvas.height);
+            for (let i = 0; i < snake.length; i++) {
+                drawBlock(snake[i].x, snake[i].y);
+            }
+
+            drawBlock(food.x, food.y, true);
+
+            setTimeout(mainLoop, snake_speed);
+        }
+
+        // Start a new game
+        function startNewGame() {
+            showScreen(SCREEN_SNAKE);
+            score = 0;
+            updateScore(score);
+            snake = [{x: 5, y: 5}];
+            snake_dir = 1;
+            snake_next_dir = 1;
+            addFood();
+            mainLoop();
+        }
+
+        window.onload = function(){
+            // Menu and Game Over buttons
+            document.getElementById("new_game").onclick = startNewGame;
+            document.getElementById("new_game1").onclick = startNewGame;
+            document.getElementById("new_game2").onclick = startNewGame;
+            document.getElementById("setting_menu").onclick = function(){ showScreen(SCREEN_SETTING); };
+            document.getElementById("setting_menu1").onclick = function(){ showScreen(SCREEN_SETTING); };
+
+            // Speed settings
+            for (let i = 0; i < speed_setting.length; i++) {
+                speed_setting[i].addEventListener("click", function(){
+                    setSnakeSpeed(this.value);
+                });
+            }
+
+            // Wall settings
+            for (let i = 0; i < wall_setting.length; i++) {
+                wall_setting[i].addEventListener("click", function(){
+                    setWall(this.value);
+                });
+            }
+
+            // Handle keydown for direction changes and starting game
+            window.addEventListener("keydown", function(evt) {
+                if (evt.code === "Space" && SCREEN === SCREEN_MENU) {
+                    startNewGame(); // Start the game when space is pressed in the menu
+                } else {
+                    changeDir(evt.keyCode); // Change snake direction
+                }
+            });
+
+            // Ensure canvas is focusable for keyboard events
+            canvas.focus();
+        }
+    })();
+</script>
+
+</body>
+</html>
