@@ -67,12 +67,17 @@ window.addEventListener("keydown", function(event) {
 });
 </style>
 
-
 <h2>Snake Game</h2>
 <div class="header">
     Score: <span id="score_value">0</span>
 </div>
 <canvas id="snake" width="320" height="320" tabindex="1"></canvas>
+
+
+<audio id="gameSoundtrack" loop>
+    <source src="audio.mp3" type="audio/mp3">
+</audio>
+
 
 <script>
     (function(){
@@ -154,6 +159,19 @@ window.addEventListener("keydown", function(event) {
             snake_next_dir = 1;
             addFood();
             mainLoop();
+
+            const audioElement = document.getElementById("gameSoundtrack");
+                audioElement.play();
+                audioElement.volume = 0.5; // Optional: Set volume level (0 to 1)
+            };
+
+            const showGameOverScreen = () => {
+                // Pause the music when game ends
+                const audioElement = document.getElementById("gameSoundtrack");
+                audioElement.pause();
+                audioElement.currentTime = 0; // Reset to the beginning for the next round
+                alert("Game Over!"); // Game over alert
+            };
         };
 
         canvas.focus();
