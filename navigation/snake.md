@@ -67,52 +67,6 @@ window.addEventListener("keydown", function(event) {
 });
 </style>
 
-<audio id="gameSoundtrack" loop>
-    <source src="audio.mp3" type="audio/mp3">
-    Your browser does not support the audio element.
-</audio>
-
-<script>
-    window.onload = function() {
-        const audioElement = document.getElementById("gameSoundtrack");
-
-        // Start the soundtrack when the game starts
-        document.getElementById("new_game").onclick = function() {
-            startGame();
-        };
-
-        // Function to start the game
-        function startGame() {
-            // Play the soundtrack when the game starts
-            audioElement.play();
-            
-            // Other game setup logic goes here...
-            newGame();  // Your existing game logic to start the game
-        }
-
-        // Function to stop the soundtrack when the game is over
-        function gameOver() {
-            audioElement.pause();
-            audioElement.currentTime = 0; // Reset to the beginning
-        }
-
-        // Handle other game events, such as game over
-        function newGame() {
-            showScreen(SCREEN_SNAKE);
-            // Reset other game variables and start the game loop
-            snake = [];
-            snake.push({x: 0, y: 15});
-            // Other game setup logic here...
-        }
-
-        // Example of triggering gameOver
-        function endGame() {
-            showScreen(SCREEN_GAME_OVER);
-            gameOver(); // Stop the soundtrack when the game ends
-        }
-    };
-</script>
-
 
 <h2>Snake Game</h2>
 <div class="header">
