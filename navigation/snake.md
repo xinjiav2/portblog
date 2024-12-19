@@ -58,6 +58,16 @@ i tried to make a snake game here
     }
 </style>
 
+<style>
+window.addEventListener("keydown", function(event) {
+    // Prevent the default action for arrow keys
+    if (["ArrowUp", "ArrowDown", "ArrowLeft", "ArrowRight"].includes(event.key)) {
+        event.preventDefault();
+    }
+});
+</style>
+
+
 <h2>Snake Game</h2>
 <div class="header">
     Score: <span id="score_value">0</span>
