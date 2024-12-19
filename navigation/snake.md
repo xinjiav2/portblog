@@ -111,12 +111,14 @@ i tried to make a snake game here
             snake.unshift({x: _x, y: _y});
 
             if (_x < 0 || _x >= canvas.width / BLOCK || _y < 0 || _y >= canvas.height / BLOCK) {
-                return alert('Game Over!'); // End game
+                showGameOverScreen();
+                return;
             }
 
             for (let i = 1; i < snake.length; i++) {
                 if (snake[0].x === snake[i].x && snake[0].y === snake[i].y) {
-                    return alert('Game Over!');
+                    showGameOverScreen();
+                    return;
                 }
             }
 
