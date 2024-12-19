@@ -9,7 +9,7 @@ i tried to make a snake game here
 <style>
     body {
         font-family: 'Arial', sans-serif;
-        background-color: #282c34;
+        background-color: #ffffff;
         color: #f1f1f1;
         display: flex;
         flex-direction: column;
