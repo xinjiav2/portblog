@@ -143,7 +143,6 @@ i tried to make a snake game here
     <div id="menu" class="py-4">
         <p>hi!, press <span style="background-color: #FFFFFF; color: #000000">space</span> to begin start the game :D</p>
         <a id="new_game" class="btn">New Game</a>
-        <a id="setting_menu" class="btn">Settings</a>
     </div>
     <div id="gameover" class="py-4">
         <p>sorry, good game, press <span style="background-color: #FFFFFF; color: #000000">space</span> to try again</p>
