@@ -12,7 +12,8 @@ i tried to make a snake game here
         background-color: #ffffff;
         color: #000000;
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
+        /*columm = vertical, row = horizontal*/ 
         align-items: center;
         justify-content: flex-start;
         height: 100vh;
