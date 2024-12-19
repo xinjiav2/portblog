@@ -102,7 +102,7 @@ i tried to make a snake game here
     }
 
     .btn {
-        background-color: #ff69b4;
+        background-color: #bbde32;
         padding: 10px 20px;
         border-radius: 5px;
         font-size: 18px;
@@ -113,7 +113,7 @@ i tried to make a snake game here
     }
 
     .btn:hover {
-        background-color: #e053a5;
+        background-color: #bbde32;
     }
 
     .rainbow-background {
@@ -141,37 +141,14 @@ i tried to make a snake game here
         <p>Score: <span id="score_value">0</span></p>
     </header>
     <div id="menu" class="py-4">
-        <p>Welcome to Snake, press <span style="background-color: #FFFFFF; color: #000000">space</span> to begin</p>
+        <p>hi!, press <span style="background-color: #FFFFFF; color: #000000">space</span> to begin start the game :D</p>
         <a id="new_game" class="btn">New Game</a>
         <a id="setting_menu" class="btn">Settings</a>
     </div>
-
     <div id="gameover" class="py-4">
-        <p>Game Over, press <span style="background-color: #FFFFFF; color: #000000">space</span> to try again</p>
+        <p>sorry, good game, press <span style="background-color: #FFFFFF; color: #000000">space</span> to try again</p>
         <a id="new_game1" class="btn">New Game</a>
         <a id="setting_menu1" class="btn">Settings</a>
-    </div>
-
-    <canvas id="snake" class="wrap" width="320" height="320" tabindex="1"></canvas>
-
-    <div id="setting" class="py-4">
-        <p>Settings Screen, press <span style="background-color: #FFFFFF; color: #000000">space</span> to go back to playing</p>
-        <a id="new_game2" class="btn">New Game</a>
-        <br>
-        <p>Speed:
-            <input id="speed1" type="radio" name="speed" value="120" checked/>
-            <label for="speed1">Slow</label>
-            <input id="speed2" type="radio" name="speed" value="75"/>
-            <label for="speed2">Normal</label>
-            <input id="speed3" type="radio" name="speed" value="35"/>
-            <label for="speed3">Fast</label>
-        </p>
-        <p>Wall:
-            <input id="wallon" type="radio" name="wall" value="1" checked/>
-            <label for="wallon">On</label>
-            <input id="walloff" type="radio" name="wall" value="0"/>
-            <label for="walloff">Off</label>
-        </p>
     </div>
 </div>
 
