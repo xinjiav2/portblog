@@ -150,6 +150,26 @@ i tried to make a snake game here
         <a id="new_game1" class="btn">New Game</a>
         <a id="setting_menu1" class="btn">Settings</a>
     </div>
+    <canvas id="snake" class="wrap" width="320" height="320" tabindex="1"></canvas>
+    <div id="setting" class="py-4">
+        <p>Settings! , press <span style="background-color: #FFFFFF; color: #000000">space</span> to go back to playing</p>
+        <a id="new_game2" class="btn">New Game</a>
+        <br>
+        <p>Speed:
+            <input id="speed1" type="radio" name="speed" value="120" checked/>
+            <label for="speed1">Slow</label>
+            <input id="speed2" type="radio" name="speed" value="75"/>
+            <label for="speed2">Normal</label>
+            <input id="speed3" type="radio" name="speed" value="35"/>
+            <label for="speed3">Fast</label>
+        </p>
+        <p>Wall:
+            <input id="wallon" type="radio" name="wall" value="1" checked/>
+            <label for="wallon">On</label>
+            <input id="walloff" type="radio" name="wall" value="0"/>
+            <label for="walloff">Off</label>
+        </p>
+    </div>
 </div>
 
 <script>
