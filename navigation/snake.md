@@ -6,14 +6,14 @@ permalink: /snake
 hi!
 i tried to make a snake game here
 
-
-<style> 
+<style>
     body {
         font-family: 'Arial', sans-serif;
         background-color: #ffffff;
         color: #000000;
         display: flex;
         flex-direction: row;
+        /*column = vertical, row = horizontal*/ 
         align-items: center;
         justify-content: flex-start;
         height: 100vh;
@@ -64,8 +64,7 @@ i tried to make a snake game here
     Score: <span id="score_value">0</span>
 </div>
 <canvas id="snake" width="320" height="320" tabindex="1"></canvas>
-<audio id="backgroundMusic" src="navigation/audio.mp3" loop></audio>
-<button id="toggleMusicBtn">Mute Music</button> <!-- Add a button to mute/unmute -->
+<audio id="backgroundMusic" src="audio.mp3" loop></audio>
 
 <script>
     (function(){
@@ -79,7 +78,6 @@ i tried to make a snake game here
         let snake_speed = 150;
         let food = {x: 0, y: 0};
         let score = 0;
-        let isMusicMuted = false; // Track whether the music is muted
 
         const updateScore = () => document.getElementById("score_value").textContent = score;
 
@@ -140,8 +138,7 @@ i tried to make a snake game here
 
             setTimeout(mainLoop, snake_speed);
         };
-
-        const newGame = () => {
+          const newGame = () => {
             score = 0;
             updateScore();
             snake = [{x: 10, y: 10}];
@@ -152,22 +149,9 @@ i tried to make a snake game here
             mainLoop();
         };
 
-        const toggleMusic = () => {
-            if (isMusicMuted) {
-                music.play();
-                document.getElementById("toggleMusicBtn").textContent = "Mute Music";
-            } else {
-                music.pause();
-                document.getElementById("toggleMusicBtn").textContent = "Unmute Music";
-            }
-            isMusicMuted = !isMusicMuted;
-        };
-
-        // Event listener for mute/unmute button
-        document.getElementById("toggleMusicBtn").addEventListener("click", toggleMusic);
-
         canvas.focus();
         canvas.addEventListener("keydown", (e) => changeDirection(e.keyCode));
         newGame();
     })();
+
 </script>
