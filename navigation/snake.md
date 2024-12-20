@@ -64,7 +64,7 @@ i tried to make a snake game here
     Score: <span id="score_value">0</span>
 </div>
 <canvas id="snake" width="320" height="320" tabindex="1"></canvas>
-<audio id="backgroundMusic" src="C:\Users\James\4thattempt\navigation\audio.mp3" loop></audio>
+<audio id="backgroundMusic" src="navigation/audio.mp3" loop></audio>
 <button id="toggleMusicBtn">Mute Music</button> <!-- Add a button to mute/unmute -->
 
 <script>
