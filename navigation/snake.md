@@ -90,10 +90,10 @@ i tried to make a snake game here
         };
 
         const changeDirection = (key) => {
-            if (key === 37 && snake_dir !== 1) snake_next_dir = 3; // Left
-            if (key === 38 && snake_dir !== 2) snake_next_dir = 0; // Up
-            if (key === 39 && snake_dir !== 3) snake_next_dir = 1; // Right
-            if (key === 40 && snake_dir !== 0) snake_next_dir = 2; // Down
+            if (key === a && snake_dir !== 1) snake_next_dir = 3; // Left
+            if (key === w && snake_dir !== 2) snake_next_dir = 0; // Up
+            if (key === d && snake_dir !== 3) snake_next_dir = 1; // Right
+            if (key === s && snake_dir !== 0) snake_next_dir = 2; // Down
         };
 
         const mainLoop = () => {
