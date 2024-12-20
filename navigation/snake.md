@@ -12,8 +12,8 @@ i tried to make a snake game here
         background-color: #ffffff;
         color: #000000;
         display: flex;
-        flex-direction: row;
-        /*columm = vertical, row = horizontal*/ 
+        flex-direction: column;
+        /*column = vertical, row = horizontal*/ 
         align-items: center;
         justify-content: flex-start;
         height: 100vh;
@@ -58,16 +58,6 @@ i tried to make a snake game here
         margin: 20px 0;
     }
 </style>
-
-<style>
-window.addEventListener("keydown", function(event) {
-    // Prevent the default action for arrow keys
-    if (["ArrowUp", "ArrowDown", "ArrowLeft", "ArrowRight"].includes(event.key)) {
-        event.preventDefault();
-    }
-});
-</style>
-
 
 <h2>Snake Game</h2>
 <div class="header">
@@ -162,3 +152,38 @@ window.addEventListener("keydown", function(event) {
         newGame();
     })();
 </script>
+
+<audio id="bgMusic" src="audio.mp3" loop></audio>
+
+```h
+
+const bgMusic = document.getElementById("bgMusic");
+
+// Start the background music when the game starts
+const newGame = () => {
+    bgMusic.volume = 0.5; // Set volume (optional)
+    bgMusic.play(); // Play the background music
+    score = 0;
+    updateScore();
+    snake = [{x: 10, y: 10}];
+    snake_dir = 1; // Start moving right
+    snake_next_dir = 1;
+    addFood();
+    mainLoop();
+};
+
+// Optionally stop or pause the music when the game ends
+const showGameOverScreen = () => {
+    bgMusic.pause(); // Pause the background music
+    bgMusic.currentTime = 0; // Reset to the beginning
+    alert("Game Over!");
+};
+
+
+
+window.addEventListener("keydown", function(event) {
+    // Prevent the default action for arrow keys
+    if (["ArrowUp", "ArrowDown", "ArrowLeft", "ArrowRight"].includes(event.key)) {
+        event.preventDefault();
+    }
+});
