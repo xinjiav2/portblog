@@ -28,6 +28,7 @@ in order to restart please reload the page
         border-color: #ff69b4;
         border-radius: 15px;
         margin-top: 20px;
+        /*background of the playing field where snake is played*/ 
     }
 
     h2 {
@@ -39,6 +40,7 @@ in order to restart please reload the page
         border-radius: 8px;
         text-align: center;
         margin: 0;
+        /*color gradient and rotation*/ 
     }
 
     @keyframes rainbow {
@@ -51,12 +53,14 @@ in order to restart please reload the page
         100% {
             background-position: 0% 50%;
         }
+        /*this is what makes the h2 part cycle colors*/
     }
-
+/*
     .header {
         font-size: 18px;
         margin: 20px 0;
     }
+/*font size and margins for header*/
 </style>
 
 <h2>Snake Game</h2>
@@ -72,7 +76,6 @@ in order to restart please reload the page
         const canvas = document.getElementById("snake");
         const ctx = canvas.getContext("2d");
         const BLOCK = 10;
-        const music = document.getElementById("backgroundMusic");
         let snake;
         let snake_dir;
         let snake_next_dir;
