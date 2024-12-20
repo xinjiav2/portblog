@@ -12,7 +12,7 @@ i tried to make a snake game here
         background-color: #ffffff;
         color: #000000;
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         /*column = vertical, row = horizontal*/ 
         align-items: center;
         justify-content: flex-start;
@@ -151,11 +151,10 @@ i tried to make a snake game here
         canvas.addEventListener("keydown", (e) => changeDirection(e.keyCode));
         newGame();
     })();
-</script>
+
 
 <audio id="bgMusic" src="audio.mp3" loop></audio>
 
-```h
 
 const bgMusic = document.getElementById("bgMusic");
 
@@ -187,3 +186,5 @@ window.addEventListener("keydown", function(event) {
         event.preventDefault();
     }
 });
+
+</script>
