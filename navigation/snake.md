@@ -138,7 +138,6 @@ i tried to make a snake game here
 
             setTimeout(mainLoop, snake_speed);
         };
-
         const newGame = () => {
             score = 0;
             updateScore();
@@ -146,13 +145,22 @@ i tried to make a snake game here
             snake_dir = 1; // Start moving right
             snake_next_dir = 1;
             addFood();
-            music.play(); // Start playing music
+            if (!musicStarted) {
+                music.play(); // Play the music only after the user interacts
+                musicStarted = true;
+            }
             mainLoop();
         };
 
         canvas.focus();
-        canvas.addEventListener("keydown", (e) => changeDirection(e.keyCode));
+        canvas.addEventListener("keydown", (e) => {
+            changeDirection(e.keyCode);
+            if (!musicStarted) {
+                music.play(); // Play the music when the user interacts
+                musicStarted = true;
+            }
+        });
+
         newGame();
     })();
-
 </script>
