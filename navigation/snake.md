@@ -152,6 +152,8 @@ i tried to make a snake game here
         newGame();
     })();
 
+</script>
+
 
 <audio id="bgMusic" src="audio.mp3" loop></audio>
 
@@ -187,4 +189,3 @@ window.addEventListener("keydown", function(event) {
     }
 });
 
-</script>
