@@ -7,6 +7,7 @@ hi!
 i tried to make a snake game here
 <br>
 in order to restart please reload the page
+
 <style>
     body {
         font-family: 'Arial', sans-serif;
@@ -58,29 +59,16 @@ in order to restart please reload the page
         font-size: 18px;
         margin: 20px 0;
     }
-
-    #muteButton {
-        background: none;
-        border: none;
-        font-size: 24px;
-        color: #bbde22;
-        cursor: pointer;
-        padding: 5px 10px;
-        margin-left: 10px;
-    }
-
-    #muteButton:hover {
-        opacity: 0.8;
-    }
 </style>
 
 <h2>Snake Game</h2>
 <div class="header">
     Score: <span id="score_value">0</span>
-    <button id="muteButton">🔊</button>
 </div>
 <canvas id="snake" width="320" height="320" tabindex="1"></canvas>
 <audio id="backgroundMusic" src="audio.mp3" loop></audio>
+
+
 
 <script>
     (function(){
@@ -88,32 +76,12 @@ in order to restart please reload the page
         const ctx = canvas.getContext("2d");
         const BLOCK = 10;
         const music = document.getElementById("backgroundMusic");
-        music.volume = 0.3; // Set volume to 30%
-        
         let snake;
         let snake_dir;
         let snake_next_dir;
         let snake_speed = 150;
         let food = {x: 0, y: 0};
         let score = 0;
-
-        const handleAudio = {
-            play: () => {
-                music.play().catch(error => {
-                    console.log("Audio playback failed:", error);
-                });
-            },
-            pause: () => {
-                music.pause();
-            },
-            toggle: () => {
-                if (music.paused) {
-                    handleAudio.play();
-                } else {
-                    handleAudio.pause();
-                }
-            }
-        };
 
         const updateScore = () => document.getElementById("score_value").textContent = score;
 
@@ -132,12 +100,6 @@ in order to restart please reload the page
             if (key === 38 && snake_dir !== 2) snake_next_dir = 0; // Up
             if (key === 39 && snake_dir !== 3) snake_next_dir = 1; // Right
             if (key === 40 && snake_dir !== 0) snake_next_dir = 2; // Down
-        };
-
-        const showGameOverScreen = () => {
-            handleAudio.pause();
-            alert("Game Over! Your score: " + score);
-            newGame();
         };
 
         const mainLoop = () => {
@@ -180,32 +142,20 @@ in order to restart please reload the page
 
             setTimeout(mainLoop, snake_speed);
         };
-
-        const newGame = () => {
+          const newGame = () => {
             score = 0;
             updateScore();
             snake = [{x: 10, y: 10}];
             snake_dir = 1; // Start moving right
             snake_next_dir = 1;
             addFood();
-            handleAudio.play(); // Start playing music
+            music.play(); // Start playing music
             mainLoop();
         };
-
-        // Add audio controls
-        const muteButton = document.getElementById("muteButton");
-        muteButton.addEventListener("click", () => {
-            if (music.paused) {
-                handleAudio.play();
-                muteButton.textContent = "🔊";
-            } else {
-                handleAudio.pause();
-                muteButton.textContent = "🔈";
-            }
-        });
 
         canvas.focus();
         canvas.addEventListener("keydown", (e) => changeDirection(e.keyCode));
         newGame();
     })();
+
 </script>
