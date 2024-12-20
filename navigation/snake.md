@@ -5,7 +5,8 @@ permalink: /snake
 ---
 hi!
 i tried to make a snake game here
-
+<br>
+in order to restart please reload the page
 
 <style>
     body {
