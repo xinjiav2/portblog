@@ -55,7 +55,7 @@ in order to restart please reload the page
         }
         /*this is what makes the h2 part cycle colors*/
     }
-/*
+
     .header {
         font-size: 18px;
         margin: 20px 0;
@@ -69,6 +69,9 @@ in order to restart please reload the page
 </div>
 <canvas id="snake" width="320" height="320" tabindex="1"></canvas>
 
+<!--
+shows the text on the header block (rainbow block)
+-->
 
 
 <script>
@@ -82,18 +85,23 @@ in order to restart please reload the page
         let snake_speed = 75;
         let food = {x: 0, y: 0};
         let score = 0;
-
+/*snake logic, canvas is background, and ctx is the subject, const block time between snakes
+snake is the snake, snake_dir is the current direction, snake_next_dir is the next direction
+snake_speed is the snake speed, food is where the food is, score is the current score*/
         const updateScore = () => document.getElementById("score_value").textContent = score;
+        /*updates score with score_value*/
 
         const addFood = () => {
             food.x = Math.floor(Math.random() * (canvas.width / BLOCK));
             food.y = Math.floor(Math.random() * (canvas.height / BLOCK));
         };
+        /*generates food based on avaliable blocks*/
 
         const activeDot = (x, y, color = '#FF6347') => {
             ctx.fillStyle = color;
             ctx.fillRect(x * BLOCK, y * BLOCK, BLOCK, BLOCK);
         };
+        /*draws the food onto the canvas*/
 
         const changeDirection = (key) => {
             if (key === 37 && snake_dir !== 1) snake_next_dir = 3; // Left
@@ -101,11 +109,14 @@ in order to restart please reload the page
             if (key === 39 && snake_dir !== 3) snake_next_dir = 1; // Right
             if (key === 40 && snake_dir !== 0) snake_next_dir = 2; // Down
         };
+        /*change direction based on what key is pressed*/
 
         const mainLoop = () => {
             let _x = snake[0].x;
             let _y = snake[0].y;
             snake_dir = snake_next_dir;
+            /*main loop, does The runs continuously to update the game state, 
+            move the snake, and check for collisions.*/
 
             switch (snake_dir) {
                 case 0: _y--; break; // Up
@@ -127,6 +138,7 @@ in order to restart please reload the page
                     showGameOverScreen();
                     return;
                 }
+                /*checks if the snake hits wall or collides with itself. if true game ends.*/
             }
 
             if (snake[0].x === food.x && snake[0].y === food.y) {
@@ -135,12 +147,17 @@ in order to restart please reload the page
                 updateScore();
                 addFood();
             }
+            /*grows snake, updates score, checks if food is eaten, puts new food*/
 
             ctx.clearRect(0, 0, canvas.width, canvas.height);
+            /*clears canvas so frames wont stack on each other*/
             snake.forEach((segment, index) => activeDot(segment.x, segment.y, index === 0 ? '#FFD700' : '#FF6347'));
+            /*redraws snake so that it does not become infinetly long*/
             activeDot(food.x, food.y, '#32CD32');
+            /*draws food*/
 
             setTimeout(mainLoop, snake_speed);
+            /*gets mainloop to run again so game will run, main loop will run every snake_speed milliseconds*/
         };
           const newGame = () => {
             score = 0;
@@ -151,10 +168,13 @@ in order to restart please reload the page
             addFood();
             mainLoop();
         };
+        /*make new game, set position and start mainloop()*/
 
         canvas.focus();
         canvas.addEventListener("keydown", (e) => changeDirection(e.keyCode));
+        /*checks if key is pressed, changes direction*/
         newGame();
+        /*is the new game*/
     })();
 
 </script>
