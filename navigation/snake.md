@@ -19,8 +19,6 @@ in order to restart please reload the page
         align-items: center;
         justify-content: flex-start;
         height: 100vh;
-        margin: 0;
-        padding-top: 20px;
     }
 
     canvas {
