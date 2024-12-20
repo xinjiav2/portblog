@@ -66,7 +66,6 @@ in order to restart please reload the page
     Score: <span id="score_value">0</span>
 </div>
 <canvas id="snake" width="320" height="320" tabindex="1"></canvas>
-<audio id="backgroundMusic" src="audio.mp3" loop></audio>
 
 
 
@@ -149,7 +148,6 @@ in order to restart please reload the page
             snake_dir = 1; // Start moving right
             snake_next_dir = 1;
             addFood();
-            music.play(); // Start playing music
             mainLoop();
         };
 
