@@ -20,7 +20,7 @@ in order to restart please reload the page
         justify-content: flex-start;
         height: 100vh;
     }
-
+/*formatting*/
     canvas {
         display: block;
         border-style: solid;
