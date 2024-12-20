@@ -64,12 +64,14 @@ i tried to make a snake game here
     Score: <span id="score_value">0</span>
 </div>
 <canvas id="snake" width="320" height="320" tabindex="1"></canvas>
+<audio id="backgroundMusic" src="audio.mp3" loop></audio>
 
 <script>
     (function(){
         const canvas = document.getElementById("snake");
         const ctx = canvas.getContext("2d");
         const BLOCK = 10;
+        const music = document.getElementById("backgroundMusic");
         let snake;
         let snake_dir;
         let snake_next_dir;
@@ -144,6 +146,7 @@ i tried to make a snake game here
             snake_dir = 1; // Start moving right
             snake_next_dir = 1;
             addFood();
+            music.play(); // Start playing music
             mainLoop();
         };
 
