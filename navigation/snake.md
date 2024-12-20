@@ -79,7 +79,7 @@ in order to restart please reload the page
         let snake;
         let snake_dir;
         let snake_next_dir;
-        let snake_speed = 300;
+        let snake_speed = 75;
         let food = {x: 0, y: 0};
         let score = 0;
 
