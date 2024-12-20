@@ -152,9 +152,6 @@ i tried to make a snake game here
         newGame();
     })();
 
-</script>
-
-
 <audio id="bgMusic" src="audio.mp3" loop></audio>
 
 
@@ -162,7 +159,6 @@ const bgMusic = document.getElementById("bgMusic");
 
 // Start the background music when the game starts
 const newGame = () => {
-    bgMusic.volume = 0.5; // Set volume (optional)
     bgMusic.play(); // Play the background music
     score = 0;
     updateScore();
@@ -173,19 +169,4 @@ const newGame = () => {
     mainLoop();
 };
 
-// Optionally stop or pause the music when the game ends
-const showGameOverScreen = () => {
-    bgMusic.pause(); // Pause the background music
-    bgMusic.currentTime = 0; // Reset to the beginning
-    alert("Game Over!");
-};
-
-
-
-window.addEventListener("keydown", function(event) {
-    // Prevent the default action for arrow keys
-    if (["ArrowUp", "ArrowDown", "ArrowLeft", "ArrowRight"].includes(event.key)) {
-        event.preventDefault();
-    }
-});
-
+</script>
