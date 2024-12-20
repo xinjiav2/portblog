@@ -6,11 +6,12 @@ permalink: /snake
 hi!
 i tried to make a snake game here
 
+
 <style>
     body {
         font-family: 'Arial', sans-serif;
-        background-color: #ffffff;
-        color: #000000;
+        background-color: #141414;
+        color: #bbde22;
         display: flex;
         flex-direction: row;
         /*column = vertical, row = horizontal*/ 
