@@ -138,29 +138,20 @@ i tried to make a snake game here
 
             setTimeout(mainLoop, snake_speed);
         };
-        const newGame = () => {
+          const newGame = () => {
             score = 0;
             updateScore();
             snake = [{x: 10, y: 10}];
             snake_dir = 1; // Start moving right
             snake_next_dir = 1;
             addFood();
-            if (!musicStarted) {
-                music.play(); // Play the music only after the user interacts
-                musicStarted = true;
-            }
+            music.play(); // Start playing music
             mainLoop();
         };
 
         canvas.focus();
-        canvas.addEventListener("keydown", (e) => {
-            changeDirection(e.keyCode);
-            if (!musicStarted) {
-                music.play(); // Play the music when the user interacts
-                musicStarted = true;
-            }
-        });
-
+        canvas.addEventListener("keydown", (e) => changeDirection(e.keyCode));
         newGame();
     })();
+
 </script>
