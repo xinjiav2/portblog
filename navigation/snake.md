@@ -138,35 +138,19 @@ i tried to make a snake game here
         };
 
         const newGame = () => {
-            score = 0;
-            updateScore();
-            snake = [{x: 10, y: 10}];
-            snake_dir = 1; // Start moving right
-            snake_next_dir = 1;
-            addFood();
-            mainLoop();
+          const bgMusic = document.getElementById("bgMusic");
+           bgMusic.play(); // Play the background music
+
+           score = 0;
+          updateScore();
+          snake = [{x: 10, y: 10}];
+          snake_dir = 1; // Start moving right
+          snake_next_dir = 1;
+          addFood();
+          mainLoop();
         };
 
         canvas.focus();
         canvas.addEventListener("keydown", (e) => changeDirection(e.keyCode));
         newGame();
     })();
-
-<audio id="bgMusic" src="audio.mp3" loop></audio>
-
-
-const bgMusic = document.getElementById("bgMusic");
-
-// Start the background music when the game starts
-const newGame = () => {
-    bgMusic.play(); // Play the background music
-    score = 0;
-    updateScore();
-    snake = [{x: 10, y: 10}];
-    snake_dir = 1; // Start moving right
-    snake_next_dir = 1;
-    addFood();
-    mainLoop();
-};
-
-</script>
