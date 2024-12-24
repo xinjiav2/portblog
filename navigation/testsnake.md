@@ -4,6 +4,8 @@ title: Snake 2
 permalink: /testsnake/
 ---
 
+thisj should be a worse snake or something idk really
+
 <style>
 
     body{
