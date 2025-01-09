@@ -134,7 +134,7 @@ hopefully this is a snake
 <div style="display: flex; flex-wrap: wrap; gap: 10px;">
     <a href="{{site.baseurl}}/ntps" style="text-decoration: none;">
         <div style="background-color: #38afad; color: black; padding: 10px 20px; border-radius: 5px; font-weight: bold;">
-            Code That You Get if You Press ctrl+u on Chrome New Tab
+            Code That You Get if You Press ctrl+u on Chrome New Tab (doesent work lol its just the code and you cant even see it)
         </div>
      </a>
 </div>

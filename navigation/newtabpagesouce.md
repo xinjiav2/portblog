@@ -42,3 +42,8 @@ permalink: /ntps
     <link rel="stylesheet" href="shared_vars.css">
   </body>
 </html>
+
+
+
+
+yea i wasnt expecting it to work
