@@ -216,3 +216,38 @@ whatever your passionate about, do that thing.
 basically everyone procrastinated about the college apps
 
 <br>
+
+to maneage stuff people used gitbook or something, just like a lare notebook.
+
+<br>
+
+"the future is cs" - (i forgot his name)
+<br>
+BUT I AGREE
+
+<br>
+EVERYTHING IS IN JYPETER NOTEBOOK (.json)
+
+<br>
+best way to find info about internships, go to company website and click on careers, then interns
+<br>
+also can use indeed.
+<br>
+also linkedin, search top 300 companies/smaller startup
+<br>
+messageing people on linkedin (recruiters) can give you a lot of skills
+<br>
+website skills are important, as internships only have 1 page and a personal websitecan act like a portfolio, in order to help
+
+<br>
+
+and again,, EXPLORE WHATS OUT THERE
+
+<br>
+freshman going to college - 
+your first internship does not nessisarly need to match your major, its just for internship experience.
+<br>
+go to carrier fairs! can find a lot of connections
+<br>
+
+part 2 tmmrw office hours (i dont have time lol)
