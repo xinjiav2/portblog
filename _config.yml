@@ -25,3 +25,8 @@ header_pages:
   - navigation/about.md
   - README4YML.md
   - list of all problems i had.md
+
+
+markdown: kramdown
+highlighter: rouge
+
