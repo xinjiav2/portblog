@@ -9,6 +9,11 @@ SHELL = /bin/bash -c
 # Phony Targets, makefile housekeeping for below definitions
 .PHONY: default server issues convert clean stop
 
+
+#debug:
+#	@echo NOTEBOOK_FILES: $(NOTEBOOK_FILES)
+
+
 # List all .ipynb files in the _notebooks directory
 NOTEBOOK_FILES := $(shell find _notebooks -name '*.ipynb')
 
