@@ -13,7 +13,7 @@ SHELL = /bin/bash -c
 NOTEBOOK_FILES := $(shell find _notebooks -name '*.ipynb')
 
 # Specify the target directory for the converted Markdown files
-DESTINATION_DIRECTORY = _posts
+DESTINATION_DIRECTORY = _posts/foundation
 MARKDOWN_FILES := $(patsubst _notebooks/%.ipynb,$(DESTINATION_DIRECTORY)/%_IPYNB_2_.md,$(NOTEBOOK_FILES))
 
 # Call server, then verify and start logging
