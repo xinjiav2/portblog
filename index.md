@@ -15,10 +15,12 @@ We have sprites of Arrav and Ruhann
 
 # Arrav LaJolla
 ![Arrav](ruarav.gif)
+<br>
 Arrav is the protagonist of our game and is what the player (you) will control. 
 
 # Ruhann Balsa
 ![Ruhann](rufat.gif)
+<br>
 Ruhann is the main antagonist of our game and you are trying to defeat him with your platforming skills. 
 
 # Goal of the game
