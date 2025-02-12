@@ -1,7 +1,7 @@
 ---
 layout: base
-title: Game planning
-description: Home Page
+title: Game Planning
+description: Planning for CSSE RPG
 hide: true
 ---
 
@@ -35,6 +35,57 @@ Zhengji and Advait flowchart for CSSE Game: <br>
 <br>
 
 
+General Code for the game
+our game would usually utilize the this.physics command <br>
+we would use it like such
+
+```
+let arrav = this.physics.add.sprite(100, 300, 'arrav');
+```
+
+we would also like to not allow collision between Arrav and Ruhann, utilizing the 
+```
+interactionAction
+isColission()
+```
+
+<br>
+We would also use code like the following for our background
+
+```
+function draw(ctx) {
+    ctx.fillStyle = "blue";
+    ctx.fillRect(10, 10, 100, 100);
+}
+```
+
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+this is making me think of the song Role Playing Game by soramafuurasaka lol
 
 
 <!-- 
