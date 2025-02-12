@@ -1,6 +1,6 @@
 ---
 layout: base
-title: Student Home 
+title: Game planning
 description: Home Page
 hide: true
 ---
@@ -10,7 +10,23 @@ hide: true
 
 
 <br>
+Our game idea is a platformer RPG and takes on the role of Arrav LaJolla and Ruhann Balsa. <br>
+We have sprites of Arrav and Ruhann
 
+# Arrav LaJolla
+![Arrav](ruarav.gif)
+Arrav is the protagonist of our game and is what the player (you) will control. 
+
+# Ruhann Balsa
+![Ruhann](rufat.gif)
+Ruhann is the main antagonist of our game and you are trying to defeat him with your platforming skills. 
+
+# Goal of the game
+In order to win our game, you trying to finish the platformer game before Ruhann does, and it is a platformer. <br>
+The game can be visualized as the online multiplayer game Tag, except that instead of trying to tag the other player, you are trying to bet ahead of Ruhann <br>
+
+
+# Flowchart <br>
 
 Zhengji and Advait flowchart for CSSE Game: <br>
 ![Flowchart](final-flowchart.png)
@@ -19,10 +35,7 @@ Zhengji and Advait flowchart for CSSE Game: <br>
 
 
 
-
-
-
-
+<!-- 
 it worked...
 
 thank you finally....
@@ -161,3 +174,6 @@ hopefully this is a snake
 
 
 <a href="/ithw.html">View Notebook</a>
+
+
+-->
