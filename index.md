@@ -19,12 +19,12 @@ If possible, we would also use the collision action command to add projectiles i
 
 We have sprites of Arrav and Ruhann
 
-# Arrav LaJolla
+# Varra
 ![Arrav](ruarav.gif)
 <br>
 Arrav is the protagonist of our game and is what the player (you) will control. 
 
-# Ruhann Balsa
+# Nnahur
 ![Ruhann](rufat.gif)
 <br>
 Ruhann is the main antagonist of our game and you are trying to defeat him with your platforming skills. 
