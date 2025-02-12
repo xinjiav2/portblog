@@ -10,7 +10,13 @@ hide: true
 
 
 <br>
-Our game idea is a platformer RPG and takes on the role of Arrav LaJolla and Ruhann Balsa. <br>
+Our game idea is a platformer RPG and has the  of Arrav LaJolla and Ruhann Balsa. <br>
+Arrav is the main character and Ruhann is the secondary character. <br>
+We would have a collision action command in order to tell if Arrav hits Ruhann <br>
+If Arrav hits Ruhann, Arrav instantly dies, and the game ends in a loss. <br>
+If possible, we would also use the collision action command to add projectiles into the game, and if Arrav hits Ruhann with a projectile then this would result in either Ruhann losing health or Ruhann being slowed down or hit off the platform he currently is on.
+
+
 We have sprites of Arrav and Ruhann
 
 # Arrav LaJolla
