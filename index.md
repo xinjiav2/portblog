@@ -29,9 +29,13 @@ Arrav is the protagonist of our game and is what the player (you) will control.
 <br>
 Ruhann is the main antagonist of our game and you are trying to defeat him with your platforming skills. 
 
+
+### WE GOT PERMISSION FROM RUHAAN AND AARAV TO DEPICT THEM IN THIS WAY.
+
+
 # Goal of the game
-In order to win our game, you trying to finish the platformer game before Ruhann does, and it is a platformer. <br>
-The game can be visualized as the online multiplayer game Tag, except that instead of trying to tag the other player, you are trying to bet ahead of Ruhann <br>
+In order to win our game, you trying to finish the end of the platform before Ruhann does. This is used with your parkour skills and you are controlling the Arrav with the arrow keys <br>
+The game can be visualized as the online multiplayer game Tag, except that instead of trying to tag the other player, you are trying to get ahead of Ruhann <br>
 
 
 # Flowchart <br>
