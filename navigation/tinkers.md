@@ -1,7 +1,7 @@
 ---
 layout: base
 title: Tinekers
-permalink: /testsnake/
+permalink: /tinkers/
 ---
 
 ![Flowchart](final-flowchart.png) <br>
