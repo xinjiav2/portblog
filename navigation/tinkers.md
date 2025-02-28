@@ -13,12 +13,12 @@ permalink: /tinkers/
  For tinker one, I have decided to add a bit of randomness to my code, and used the math.floor() function and math.random() function to randomally generate three lines of text that would appear when you touch the mutant octopus sprite <br>
  ![Tinker One Code](tk1pt1.png)
  <br>
- Voice Line One:
+ Voice Line One: <br>
   ![Tinker One Voice Line One](tk1pt2.png) <br>
- Voice Line Two:
-  ![Tinker One Voice Line One](tk1pt3.png)
- Voice Line Three:
-  ![Tinker One Voice Line One](tk1pt4.png)
+ Voice Line Two: <br>
+  ![Tinker One Voice Line One](tk1pt3.png) <br>
+ Voice Line Three: <br>
+  ![Tinker One Voice Line One](tk1pt4.png) <br>
 
 Please note: this was the orignal voice lines, where the OCTOCAT was the main enemey. Since then, The octocat has been replaced by a orignal character and his voice lines has changed, but the same mechanism is still present
 
