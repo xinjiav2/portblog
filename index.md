@@ -1,5 +1,59 @@
 ---
 layout: base
+title: Homepage
+description: Homepage for CSSE Blog
+hide: true
+---
+
+
+
+
+
+
+
+
+
+
+
+<div style="display: flex; flex-wrap: wrap; gap: 10px;">
+    <a href="{{site.baseurl}}/fthing" style="text-decoration: none;">
+        <div style="background-color: #BBDE22; color: black; padding: 10px 20px; border-radius: 5px; font-weight: bold;">
+            Tinkers
+        </div>
+     </a>
+</div>
+
+<br>
+
+
+
+<div style="display: flex; flex-wrap: wrap; gap: 10px;">
+    <a href="{{site.baseurl}}/fthing" style="text-decoration: none;">
+        <div style="background-color: #38afad; color: black; padding: 10px 20px; border-radius: 5px; font-weight: bold;">
+            Five Things We Did
+        </div>
+     </a>
+</div>
+
+<br>
+
+
+
+
+
+
+
+
+
+
+
+<!--
+
+
+
+
+---
+layout: base
 title: Game Planning
 description: Planning for CSSE RPG
 hide: true
@@ -96,6 +150,10 @@ function draw(ctx) {
 
 
 this is making me think of the song Role Playing Game by soramafuurasaka lol
+-->
+
+
+
 
 
 <!-- 
