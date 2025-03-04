@@ -12,7 +12,7 @@ hide: true
 
 
 
-Buttons to pages: <br>
+## Buttons to pages: <br>
 
 
 <div style="display: flex; flex-wrap: wrap; gap: 10px;">
