@@ -30,7 +30,7 @@ Collaboration & Development:
 - Find and patch bugs more efficiently.
 - Self-Evaluation:
 
-Rate ourselves a 0.9 because:
+For a self rating, we would give ourselves a 0.9 because:
 
 - We completed all required tasks.
 - Worked outside of school, even in our free time.
