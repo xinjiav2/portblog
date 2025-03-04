@@ -17,4 +17,6 @@ How we would fix it: Our orignal game idea was to make the main character the fl
 Feedback #3: Good Backstory <br>
 Srijan said that our overall backstory was good, however we could have tied the game into it more.<br>
 How we would fix it: We would write more things about the characters, and add more story. Our game is currently just like a cliffhanger, and after the main enemey introduces himself there is really nothing going on. We could write more things about the game, and this would result in more people understanding the story of our game, and increase enjoyment.
- 
+
+
+Overview: Me and Advait have known Srijan since the beginning of the school year, as he is our coach for Del Norte Academic League. He has seen us throughout the process of making the game and knows about many of our hardships. There has been many times throughout the Academic Leauge season where we have gone up to him during our practices or after our game to ask him about this class. He has known about basically every single bug we had, and every single triumph we had. At the beginning of this trimester, we were mostly relying on ChatGPT for guidance, and W3 Schools. But now thanks to Srijan, we have learned to also ask other people. For example, we have had guidance from many upperclassman, for example our TA's Rachit and Tanisha, as well as Saaras, who is also in CSA. 
