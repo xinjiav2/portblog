@@ -4,19 +4,42 @@ title: N@TM Feedback
 permalink: /natmfeedback/
 ---
 
-During Night At The Museuem, we got the majority of our feedback from Srijan, from CSA <br>
+### During Night At The Museum, we got the majority of our feedback from Srijan, from CSA
+ <br>
 Srijan's feedback: <br>
-Feedback #1: Instructions page <br>
-Srijan found it hard to move around, mostly because we did not have much communication and the total amount of noise in the room. It took him a while to figure out the controls, especially how to interact with the npc's but it would be a lot better if we added a how to play section. <br>
-How we would fix it: Within the backstory section we would make a new line, that is mostly just how to play the game, it would say something like, wasd to move, e to interact, and esc to move to the next level. <br>
 
-Feedback #2: Fix horizantal movement <br>
-Srijan stated that our character moved horizontally too fast, and we timed the time it takes for him to cross the screen and it was around 0.4 seconds. The game is still playable however just not very fun. <br>
-How we would fix it: Our orignal game idea was to make the main character the flash, this way the speed was a aspect of the game. However we already had preexisting sprites and our sprite creator decided that he wanted to spend his time (at home) studying for math. Which I respect. However, this meant that we could not use the flash as a sprite, so we used our old sprites. But this did not go with the game. We just need to edit the files a tiny bit and we will fix this easily. Nothing to large, just so small that its overlooked easily. <br>
+## Feedback #1: Instructions page
+ <br>
+ - Srijan found it hard to move around due to a lack of communication and the noise in the room. <br>
+ - It took him a while to figure out the controls, especially how to interact with NPCs. <br>
+# Suggested improvement: Add a "How to Play" section. <br>
+# How we would fix it: <br>
+ - In the backstory section, add a new line detailing the controls: "WASD to move, E to interact, ESC to move to the next level." <br>
 
-Feedback #3: Good Backstory <br>
-Srijan said that our overall backstory was good, however we could have tied the game into it more.<br>
-How we would fix it: We would write more things about the characters, and add more story. Our game is currently just like a cliffhanger, and after the main enemey introduces himself there is really nothing going on. We could write more things about the game, and this would result in more people understanding the story of our game, and increase enjoyment.
+## Feedback #2: Fix horizontal movement <br>
+
+ - Srijan mentioned the character moved too fast horizontally. It took around 0.4 seconds to cross the screen. <br>
+ - While the game is still playable, it’s not very fun. <br>
+ # How we would fix it: <br>
+ - Originally, the game featured the main character as The Flash, with speed being a key gameplay element. <br>
+ - However, due to the unavailability of new sprites and the sprite creator focusing on studying, we couldn’t use The Flash and stuck with old sprites. <br>
+ - Plan to make small adjustments to fix the speed issue.
+
+ <br>
+## Feedback #3: Good backstory
+ <br>
+ - Srijan praised the backstory but suggested tying it more into the gameplay. <br>
+# How we would fix it: <br>
+ - Write more details about the characters and expand the story. <br>
+ - Currently, the game feels like a cliffhanger with little development after the main enemy introduces himself. <br>
+ - By adding more content, we can improve understanding and increase player enjoyment. <br>
 
 
-Overview: Me and Advait have known Srijan since the beginning of the school year, as he is our coach for Del Norte Academic League. He has seen us throughout the process of making the game and knows about many of our hardships. There has been many times throughout the Academic Leauge season where we have gone up to him during our practices or after our game to ask him about this class. He has known about basically every single bug we had, and every single triumph we had. At the beginning of this trimester, we were mostly relying on ChatGPT for guidance, and W3 Schools. But now thanks to Srijan, we have learned to also ask other people. For example, we have had guidance from many upperclassman, for example our TA's Rachit and Tanisha, as well as Saaras, who is also in CSA. 
+## Overview: <br>
+
+ - Me and Advait have known Srijan since the beginning of the school year, as he is our coach for Del Norte Academic League. <br>
+ - He has seen us throughout the game development process and is aware of many of our challenges. <br>
+ - We’ve often approached him during practices or after games for advice about this class. <br>
+ - He has been aware of every bug and triumph we've had. <br>
+ - At the beginning of this trimester, we mainly relied on ChatGPT and W3 Schools for guidance. <br>
+ - Thanks to Srijan, we’ve learned to seek advice from others, such as upperclassmen, TAs Rachit and Tanisha, and Saaras, who is also in CSA.
