@@ -17,7 +17,7 @@ Buttons to pages: <br>
 
 <div style="display: flex; flex-wrap: wrap; gap: 10px;">
     <a href="{{site.baseurl}}/fthing" style="text-decoration: none;">
-        <div style="background-color: #000000; color: black; padding: 10px 20px; border-radius: 5px; font-weight: bold;">
+        <div style="background-color:rgb(137, 137, 137); color: black; padding: 10px 20px; border-radius: 5px; font-weight: bold;">
             Tinkers
         </div>
      </a>
@@ -29,7 +29,7 @@ Buttons to pages: <br>
 
 <div style="display: flex; flex-wrap: wrap; gap: 10px;">
     <a href="{{site.baseurl}}/fthing" style="text-decoration: none;">
-        <div style="background-color: #000000; color: black; padding: 10px 20px; border-radius: 5px; font-weight: bold;">
+        <div style="background-color:rgb(137, 137, 137); color: black; padding: 10px 20px; border-radius: 5px; font-weight: bold;">
             Five Things We Did
         </div>
      </a>
@@ -39,7 +39,7 @@ Buttons to pages: <br>
 
 <div style="display: flex; flex-wrap: wrap; gap: 10px;">
     <a href="{{site.baseurl}}/tuw" style="text-decoration: none;">
-        <div style="background-color: #000000; color: black; padding: 10px 20px; border-radius: 5px; font-weight: bold;">
+        <div style="background-color:rgb(137, 137, 137); color: black; padding: 10px 20px; border-radius: 5px; font-weight: bold;">
             Tinkers Write Up
         </div>
      </a>
@@ -49,7 +49,7 @@ Buttons to pages: <br>
 
 <div style="display: flex; flex-wrap: wrap; gap: 10px;">
     <a href="{{site.baseurl}}/tuw" style="text-decoration: none;">
-        <div style="background-color: #000000; color: black; padding: 10px 20px; border-radius: 5px; font-weight: bold;">
+        <div style="background-color:rgb(137, 137, 137); color: black; padding: 10px 20px; border-radius: 5px; font-weight: bold;">
             N@TM Feedback
         </div>
      </a>
