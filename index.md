@@ -16,7 +16,7 @@ hide: true
 
 
 <div style="display: flex; flex-wrap: wrap; gap: 10px;">
-    <a href="{{site.baseurl}}/fthing" style="text-decoration: none;">
+    <a href="{{site.baseurl}}/tinkers" style="text-decoration: none;">
         <div style="background-color:rgb(137, 137, 137); color: black; padding: 10px 20px; border-radius: 5px; font-weight: bold;">
             Tinkers
         </div>
