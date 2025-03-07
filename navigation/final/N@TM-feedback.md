@@ -26,10 +26,12 @@ Srijan's feedback: <br>
  - Plan to make small adjustments to fix the speed issue.
 
  <br>
+
 ## Feedback #3: Good backstory
  <br>
  - Srijan praised the backstory but suggested tying it more into the gameplay. <br>
-# How we would fix it: <br>
+ 
+ # How we would fix it: <br>
  - Write more details about the characters and expand the story. <br>
  - Currently, the game feels like a cliffhanger with little development after the main enemy introduces himself. <br>
  - By adding more content, we can improve understanding and increase player enjoyment. <br>
