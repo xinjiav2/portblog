@@ -92,3 +92,4 @@ please help this is the only page that works every thing else isint formatting r
 ohhh its because i wasnt using breaks<br>
 also i figured out how to insert iamges without img src :D
 
+<table><tr><td><img src="http://math.jhu.edu/~savitt/GTM/serrecia.jpg" width=120 height=183 alt=""></td><td>  <p>If I were a Springer-Verlag Graduate Text in Mathematics, I would be J.-P. Serre's <b><i>A Course in Arithmetic</i></b>.</p>  <p> Jean-Pierre Serre is Professor at the College de France. He has written a number of books, including "Algebraic Groups and Class Fields", "Local Fields", "Complex Semisimple Lie Algebras", "Linear Representations of Finite Groups", Collected Papers (3 volumes), and "Trees" published by Springer-Verlag.  </p>  <p>Which Springer GTM would <i>you</i> be?  <a href="http://math.jhu.edu/~savitt/GTM.html">The Springer GTM Test</a></p>  </td></tr></table>
