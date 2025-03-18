@@ -57,3 +57,4 @@ document.addEventListener("keydown", event => {
 
 draw();
 
+export default tetris;
