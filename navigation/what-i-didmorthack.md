@@ -1,8 +1,13 @@
 ---
-layout: page
-title: Hacks 1 and 3 documentation made by Zhengji Li
-description: Hacks 1 and 3
-permalink: /hck13/
+toc: true
+layout: post
+title: Hack Report
+description: Tasks I completed during the Hacks phase
+categories: [AdPlat]
+permalink: /adplat/hck13/
+courses: { csse: {week: 14} }
+type: ccc
+author: Zhengji Li
 ---
 
 # Documentation<br>
