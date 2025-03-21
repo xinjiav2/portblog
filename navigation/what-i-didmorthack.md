@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Hacks 1 and 3 documentation made by Zhengji Li and Ruhaan Bansal
+title: Hacks 1 and 3 documentation made by Zhengji Li
 description: Hacks 1 and 3
 permalink: /hck13/
 ---
