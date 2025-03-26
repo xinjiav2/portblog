@@ -14,3 +14,5 @@ permalink: /kahoothitlist/kahoothitlist
 ![sophie stop](image3.png)
 
 ![kirean](image4.png)
+
+I HATE THIS I HATE HTIS I HATE THIS
