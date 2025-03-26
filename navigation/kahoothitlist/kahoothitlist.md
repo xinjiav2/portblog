@@ -19,3 +19,6 @@ I HATE THIS I HATE HTIS I HATE THIS<br>
 
 ![gavin](imagesimp.png)<br>
 tbh gavin doesent deserve it but hes like right across of me so im not letting him go <br>
+
+
+chat i should actually put correct mole ratios <br>
