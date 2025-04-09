@@ -1,0 +1,11 @@
+ - Enthalpy - internal energy of the system.
+	 - Really difficult to measure, as some energy is stored as chemical bonds
+ - ΔH is enthalpy (delta H)
+ - # Energy can be released during a chemical reaction
+ - One of the products of a combustion reaction is heat.
+ - ## We measure the change in enthalpy (Delta H is the change in energy from reactants to products)
+ - The products of a combustion reaction, CO2 and H2O have less stored energy than the reactants.
+ - Extra energy not being stored is felt as us by heat energy
+ - ΔH = q
+ - By measuring the heat gained or lost by surroundings, we can determine the enthalpy change of the system.
+ - 
