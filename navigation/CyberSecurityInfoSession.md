@@ -72,3 +72,6 @@ A: keep up with the trends. Train people on it. Dude just read the news..
 2. Code Code Code? NO! Learn Learn Learn!
 3. It's not hard to learn it, so learn it!
 4. People like Ruhaan will ALWAYS be part of the job industry. DEAL WITH IT WOMP WOMP HAHAHAH AHAHAH AHAHAHAHAHAHAHAH AH HAHAHAHAH AHAHAHAHAHAHAHA AHHAHAHA
+
+
+![seed photo](photoseed.jpg)
