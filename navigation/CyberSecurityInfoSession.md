@@ -71,7 +71,10 @@ A: keep up with the trends. Train people on it. Dude just read the news..
 1. Talk to people
 2. Code Code Code? NO! Learn Learn Learn!
 3. It's not hard to learn it, so learn it!
-4. People like Ruhaan will ALWAYS be part of the job industry. DEAL WITH IT WOMP WOMP HAHAHAH AHAHAH AHAHAHAHAHAHAHAH AH HAHAHAHAH AHAHAHAHAHAHAHA AHHAHAHA
+4. Slackers will be in every group, this is a good place to learn how to deal with them.
+<!--4. People like Ruhaan will ALWAYS be part of the job industry. DEAL WITH IT WOMP WOMP HAHAHAH AHAHAH AHAHAHAHAHAHAHAH AH HAHAHAHAH AHAHAHAHAHAHAHA AHHAHAHA-->
+5. CyberSec is something that anyone can learn, and is a great job to do :D
 
 
 ![seed photo](photoseed.jpg)
+I'm the person in the center (to the right of the other two)
