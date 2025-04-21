@@ -1,6 +1,6 @@
 # Configuration, override port with usage: make PORT=4200
 PORT ?= 4100
-REPO_NAME ?= CSSE1-2-Blog
+REPO_NAME ?= portblog
 LOG_FILE = /tmp/jekyll$(PORT).log
 
 SHELL = /bin/bash -c
