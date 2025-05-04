@@ -2,8 +2,8 @@ title: Zhengji Li's personal blog
 description: "what the heck is going on"
 owner_name: Zhengji Li
 github_username: xinjiav2
-github_repo: "4thattmept" 
-baseurl: "/4thattempt"
+github_repo: "portblog" 
+baseurl: "/portblog"
 future: true
 remote_theme: jekyll/minima
 minima:
