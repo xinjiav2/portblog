@@ -20,3 +20,11 @@ Welcome !
      </a>
 </div>
 
+<div style="display: flex; flex-wrap: wrap; gap: 10px;">
+    <a href="{{site.baseurl}}/cgof" style="text-decoration: none;">
+        <div style="background-color: #38afad; color: black; padding: 10px 20px; border-radius: 5px; font-weight: bold;">
+            Conways Game Of Life
+        </div>
+     </a>
+</div>
+
