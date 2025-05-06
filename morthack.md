@@ -1,3 +1,10 @@
+---
+layout: page
+title: Morthack
+description: Morthack
+permalink: /morthack/
+---
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
