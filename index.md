@@ -13,9 +13,9 @@ Welcome !
 
 
 <div style="display: flex; flex-wrap: wrap; gap: 10px;">
-    <a href="{{site.baseurl}}/hck13" style="text-decoration: none;">
+    <a href="{{site.baseurl}}/dt3" style="text-decoration: none;">
         <div style="background-color: #38afad; color: black; padding: 10px 20px; border-radius: 5px; font-weight: bold;">
-            Documentation on how we did Hack 1 and 3 for mort code :D
+            Documentation on what I have done throughout trimester 3
         </div>
      </a>
 </div>
