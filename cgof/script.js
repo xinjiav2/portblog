@@ -341,6 +341,10 @@ document.addEventListener('DOMContentLoaded', () => {
         createPulsar(Math.floor(cols / 2) - 6, Math.floor(rows / 2) - 6);
     });
     
+    yesBtn.addEventListener('click', () => {
+        createYes(Math.floor(cols / 2) - 1, Math.floor(rows / 2) - 1);
+    });
+    
     // Initialize
     drawGrid();
     updateStats();
