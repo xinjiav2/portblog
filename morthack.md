@@ -1,3 +1,12 @@
+---
+layout: page
+title: Morthack
+description: Morthack
+permalink: /morthack/
+---
+
+<!DOCTYPE html>
+
 <script>
     // 1. Object Literal as initializer
     const playerTemplate = {
