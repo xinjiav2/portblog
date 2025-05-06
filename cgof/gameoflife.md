@@ -5,9 +5,10 @@ description: Conway's Game Of Life
 permalink: /cgof/
 ---
 
-# currently i am having problems getting it to load but it will eventually work :D
 
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
+-->
+
 <html lang="en">
 <head>
     <meta charset="UTF-8">
