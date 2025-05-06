@@ -268,6 +268,22 @@ document.addEventListener('DOMContentLoaded', () => {
         drawGrid();
         updateStats();
     }
+
+    function createYes(x, y) {
+        if (x < 2 || y < 2 || x >= cols - 2 || y >= rows - 2) return;
+        
+        grid[x][y] = 1;
+        grid[x+1][y] = 1;
+        grid[x+2][y] = 1;
+        grid[x][y+1] = 1;
+        grid[x+2][y+1] = 1;
+        grid[x][y+2] = 1;
+        grid[x+1][y+2] = 1;
+        grid[x+2][y+2] = 1;
+        
+        drawGrid();
+        updateStats();
+    }
     
     // Event Listeners
     startBtn.addEventListener('click', startGame);
