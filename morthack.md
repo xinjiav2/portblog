@@ -5,7 +5,6 @@ description: Morthack
 permalink: /morthack/
 ---
 
-<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -74,10 +73,9 @@ permalink: /morthack/
           return `${this.name} and ${opponent.name} are equal in ${power} (no damage).`;
         }
       }
-    }; // Added missing closing brace here
+    }; 
 
-    // Initial players — customize stats here:
-    const initialPlayerStats = [
+// initial player stats
       { name: "Alexander Novikov", signature: 15, ultimate: 12 },
       { name: "Vincent Fabron", signature: 10, ultimate: 14 },
       { name: "Mateo Armendáriz De la Fuente", signature: 13, ultimate: 13 },
@@ -137,9 +135,9 @@ permalink: /morthack/
         messages.push(fighter.attack(opponent, power));
       }
 
-      living.forEach(p => p.health -= 1); // fatigue damage
+      living.forEach(p => p.health -= 1); // 1 hp lost every round
 
-      // Death cleanup
+      // removoe the dead
       players = players.filter(p => p.health > 0);
       
       if (players.length === 1) {
