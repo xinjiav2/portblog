@@ -49,7 +49,7 @@ permalink: /morthack/
     <button onclick="resetGame()">Restart Game</button>
   </div>
 
-  <script>p
+  <script>
     const canvas = document.getElementById("gameCanvas");
     const ctx = canvas.getContext("2d");
 
