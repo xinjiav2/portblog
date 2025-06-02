@@ -1,3 +1,5 @@
+// block (hack 2 for nether)
+
 class Block {
     constructor(gameEnv) {
       this.gameEnv = gameEnv;
