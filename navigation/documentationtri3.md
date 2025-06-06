@@ -10,6 +10,12 @@ Throughout this trimester I have worked on multipule things, for example: <br>
  - APIs Including API adaption and API creation <br>
  - Lead Documenter - very ironic considering that I am not using tailwind for this documentation. <br>
  - Experimentation <br>
+ - Developing our Platformer Game Engine <br>
+
+I have also included many other things that were not explicitly mentioned, however were done last trimester. Examples include: <br>
+ - N@tM Feedback <br>
+ - Reflections and Next Steps <br>
+ - Tinkers (kinda...) <br>
 
 # Two Player System: <br>
  - For our two player system, I modified the `Player.js` file to allow for two players to control the same character. 
@@ -45,3 +51,11 @@ localStorage.setItem("key", "value");
  - Me and Evan worked on a experiment where we created a game that was similar to the hacks that were assigned on monday <br>
  - We created a platformer game with a health system. <br>
  - We are also planning on modifying the code for the hacks assigned on monday <br>
+
+# Platformer Game Engine: <br>
+ - Our platformer game engine was mostly developed by me and Evan. <br>
+ - This engine was comprised of a new subdirectory within the adventureGame file known as adPlatEngine. <br>
+ - Within this subdirectory me and evan have created a html file which serves as the page you go to in order to access the platformer <br>
+ - This subdirectory includes an entire new engine and game systems. <br>
+ - This one subdirectory singlehandly contained 90% of our efforts throughout the trimester, and was overall just a pain to create, however with the results that we have gotten yesterday at N@tM it was entirely worth it. <br>
+
