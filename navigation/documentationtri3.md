@@ -11,6 +11,7 @@ Throughout this trimester I have worked on multipule things, for example: <br>
  - Lead Documenter - very ironic considering that I am not using tailwind for this documentation. <br>
  - Experimentation <br>
  - Developing our Platformer Game Engine <br>
+ - Developing our own custom enemy system <br>
 
 I have also included many other things that were not explicitly mentioned, however were done last trimester. Examples include: <br>
  - N@tM Feedback <br>
