@@ -96,8 +96,11 @@ localStorage.setItem("key", "value");
 
 # That small list of words we learned: <br>
 > Ok... What were this "list of small words" that we have learned...?
+
 This small list of words were quite indeed a small list of words..? <br>
+
 Here it is!<br>
+
 ***Programming Concepts and Definitions***<br>
 **Software Engineering Practices**<br>
 *Planning changes* - Systematically analyzing and documenting modifications before implementation<br>
