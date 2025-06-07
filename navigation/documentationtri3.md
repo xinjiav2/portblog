@@ -1,6 +1,7 @@
 ---
 layout: page
-title: Documentation Tri 3
+title: Documentation Tri 3 (Our Final)
+description: Final Trimester Three, basically my documentation for wahtever I did
 permalink: /dt3/
 ---
 
