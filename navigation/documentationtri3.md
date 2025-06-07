@@ -95,4 +95,63 @@ localStorage.setItem("key", "value");
  - We learned a small list of words, quite a small list of words. More will be explained on these words later... <br>
 
 # That small list of words we learned: <br>
-> Ok... What were this "list of small words"
+> Ok... What were this "list of small words" that we have learned...?
+This small list of words were quite indeed a small list of words..? <br>
+Here it is!<br>
+***Programming Concepts and Definitions***<br>
+**Software Engineering Practices**<br>
+*Planning changes* - Systematically analyzing and documenting modifications before implementation<br>
+*Checklists* - Standardized lists of tasks or requirements to ensure consistency and completeness<br>
+*Burndowns* - Visual charts tracking work completion over time in project management<br>
+*Coding with comments* - Writing explanatory text within code to document functionality and purpose<br>
+*Building help documentation* - Creating user guides and technical documentation for software systems<br>
+**Software Development Lifecycle Practices**<br>
+*Source control* - Version management systems that track changes to code over time<br>
+*Forking* - Creating an independent copy of a repository to develop separately<br>
+*Branching* - Creating parallel development paths within a repository<br>
+*Building* - Compiling and assembling source code into executable applications<br>
+*Testing and verification* - Validating that software functions correctly and meets requirements<br>
+*Pull requests* - Formal requests to merge code changes from one branch to another<br>
+*Merging/integrating* - Combining code changes from different branches or contributors<br>
+*Deployment* - Publishing and installing software to production environments<br>
+**Retrospective Engineering Practices**<br>
+*Presentation* - Formal demonstration of completed work to stakeholders<br>
+*Live reviews* - Real-time examination and discussion of code or systems<br>
+*Demos* - Interactive demonstrations of software functionality<br>
+*Code reviews* - Systematic examination of source code by peers for quality assurance<br>
+*Revising plans* - Updating project plans based on lessons learned and new requirements<br>
+**Data Types**<br>
+*Numbers* - Numeric values including integers and floating-point numbers<br>
+*Strings* - Text data represented as sequences of characters<br>
+*Booleans* - True/false logical values<br>
+*Arrays* - Ordered collections of elements accessible by index<br>
+*JSON objects* - Data structures using JavaScript Object Notation for key-value pairs<br>
+**Operators**<br>
+*String operations* - Functions for manipulating text (concatenation, substring, search)<br>
+*Mathematical operations* - Arithmetic functions like addition, subtraction, multiplication, division<br>
+*Boolean expressions* - Logical operations using AND, OR, NOT to evaluate true/false conditions<br>
+**Control Structures**<br>
+*Iteration* - Repeating code execution using loops (for, while, do-while)<br>
+*Conditions* - Executing code based on true/false evaluations (if/else statements)<br>
+*Nested conditions* - Conditional statements placed inside other conditional statements<br>
+**Input/Output**<br>
+*HTML5 input* - Web form elements for user data entry<br>
+*Validation* - Checking user input for correctness and security<br>
+*Key events* - Responding to keyboard interactions in applications<br>
+*Document Object Model (DOM)* - Programming interface for HTML/XML documents<br>
+**Classes**<br>
+*Writing classes* - Defining blueprints for objects with properties and methods<br>
+*Creating methods* - Writing functions that belong to a class<br>
+*Instantiating objects* - Creating specific instances of a class<br>
+*Using objects* - Accessing and manipulating object properties and methods<br>
+*Calling methods* - Executing functions defined within an object<br>
+*Parameters* - Input values passed to functions or methods<br>
+*Return values* - Output values returned by functions or methods<br>
+**Coding Practices**<br>
+*SRP* - Single Responsibility Principle: each class should have one reason to change<br>
+*Object Literal* - Creating objects using curly brace notation with key-value pairs<br>
+*Object Instance* - A specific occurrence of a class with its own property values<br>
+*FSMs in Game* - Finite State Machines used to manage game states and transitions<br>
+*Inheritance* - Mechanism allowing classes to inherit properties and methods from parent classes<br>
+
+Wow, I actually used good grammar for once when writing this...<br>
