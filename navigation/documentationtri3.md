@@ -59,3 +59,12 @@ localStorage.setItem("key", "value");
  - This subdirectory includes an entire new engine and game systems. <br>
  - This one subdirectory singlehandly contained 90% of our efforts throughout the trimester, and was overall just a pain to create, however with the results that we have gotten yesterday at N@tM it was entirely worth it. <br>
 
+# Enemy System: <br>
+ - I know, this is very repetitive. <br>
+ - I believe we had 5 different enemy lessons, however ours were very unique. <br>
+ - Our enemy was very different than any other enemy we had a lesson on due to our enemy not following a set path, and instead tracking the player. <br>
+ - We mostly used the distance formula to track the nearest player and draw a line to them, the enemy will follow that line. <br>
+
+# Other Things Not Explicitly Mentioned However Were Done Last Trimester: <br>
+
+#
