@@ -158,3 +158,24 @@ Here it is!<br>
 *Inheritance* - Mechanism allowing classes to inherit properties and methods from parent classes<br>
 
 Wow, I actually used good grammar for once when writing this...<br>
+
+# Reflection and Next Steps <br>
+It is sad to see this class end. Overall this class was a really fun class, we learned a lot, we did a lot, and all our contributions eventually came through. <br>
+These are some things that I remember we did last trimester: <br>
+Future Applications of This Class:<br>
+ - Can help in a potential computer science career.<br>
+ - Beneficial for any career requiring collaboration with coworkers.<br>
+Personal Growth:<br>
+ - Learned to reflect on mistakes.<br>
+ - Developed perseverance through challenges.<br>
+ - Realized that goals can be achieved by taking one step at a time. <br>
+
+Now I believe there is one last thing... Self Grading... <br>
+
+### For my self grading I would give myself a 91% <br>
+ - This is due to a variety of reasons, most of which are based off of the effort levels that I have maintained, as well as our end result. <br>
+ - For example, I was one of the main editors of the repository, and was responsible for making most of the new ideas and integrating most of the new updates, as well as Evan. <br>
+ - Often times whenever our code didn't work, I also spent a lot of time debugging what went wrong, this made it so that I often times knew what error was going on before even looking at the console! <br>
+ - I spent a decent amount of time working outside of class hours, for example the platformer engine was developed by me and Evan outside of school hours. <br>
+
+# Thank you for making this class amazing! Period 4 will always be memorable due to the amazing classes I had in P4 :D <br>
