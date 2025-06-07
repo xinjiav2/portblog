@@ -82,6 +82,8 @@ localStorage.setItem("key", "value");
  - My first Key Thing (Following the format of last trimesters) is my github commits. <br>
  - Last trimester I ended with 376 commits, and this trimester I had... <br>
  ![very alt texting](comit2.png)
- - 596. This includes the one from last trimester, so I definetly did a little less, however now my commits were much bigger.
- -Item 2!
- - 
+ - 596. This includes the one from last trimester, so I definetly did a little less, however now my commits were much bigger. <br>
+ - Item 2! <br>
+ - Last trimester we learned how to use github, and just the basics. This trimester we learned how to apply the github skills we used to do great things. Well great things being making around a pr to portfolio_2025/pages... <br>
+ - We learned to apply our github skills, to make organizations, as well as to make a very pretty color board full of our schedule :D <br>
+ - Item 3! <br>
