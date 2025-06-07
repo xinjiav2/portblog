@@ -87,3 +87,12 @@ localStorage.setItem("key", "value");
  - Last trimester we learned how to use github, and just the basics. This trimester we learned how to apply the github skills we used to do great things. Well great things being making around a pr to portfolio_2025/pages... <br>
  - We learned to apply our github skills, to make organizations, as well as to make a very pretty color board full of our schedule :D <br>
  - Item 3! <br>
+ - Item three is usually teaching. What have we taught? <br>
+ - We mostly focused on teaching the more "niche" items that other people didnt teach, for example, API's, Two Player, Tracking Enemy. <br>
+ - Item 4! <br>
+ - We learned work ethics, communication skills, and overally very improtant things that just help you become a better person. <br>
+ - Item 5! <br>
+ - We learned a small list of words, quite a small list of words. More will be explained on these words later... <br>
+
+# That small list of words we learned: <br>
+> Ok... What were this "list of small words"
