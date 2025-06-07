@@ -67,4 +67,6 @@ localStorage.setItem("key", "value");
 
 # Other Things Not Explicitly Mentioned However Were Done Last Trimester: <br>
 
-#
+# N@tM Feedback: <br>
+ - This time, for N@tM, we had a really good game to show off, and it was not overshadowed by Evan and West's game. Well technically it is but now its both mine and Evan's game (as well as everyone else that worked on it in our group.) <br>
+ - Instead of Srijan Atti, I got advice from a freshman, that was 
