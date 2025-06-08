@@ -8,6 +8,6 @@ gem "execjs", "~> 2.8"
 
 gem 'faraday-retry'
 
-gem 'bigdecimal', '~> 3.2'
+gem 'bigdecimal', '~> 3.1'
 
 gem 'racc', '~> 1.8'
