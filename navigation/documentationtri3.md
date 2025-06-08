@@ -73,7 +73,7 @@ localStorage.setItem("key", "value");
  - This time, for N@tM, we had a really good game to show off, and it was not overshadowed by Evan and West's game. Well technically it is but now its both mine and Evan's game (as well as everyone else that worked on it in our group.) <br>
  - Instead of Srijan Atti, I got advice from a freshman, that was more blunt about what we should have done and what we shouldnt. <br>
  - We asked Preston Poon, and he gave us some advice that were actually similar to what Srijan said last trimester. <br>
- - Unfortunetly, he didn't praise us as much as Srijan did. Preston mostly focused on the technical aspects, such as how there ISIN'T A INSTRUCTIONS PAGE, WHICH WAS SOMETHING SRIJAN TOLD US TO ADD 😭😭😭 I'M SELLING. <br>
+ - Unfortunetly, he didn't praise us as much as Srijan did. Preston mostly focused on the technical aspects, such as how there ISIN'T A INSTRUCTIONS PAGE, WHICH WAS SOMETHING SRIJAN TOLD US TO ADD LAST TRIMESTER 😭😭😭 I'M SELLING. <br>
  - Preston also told us that he didn't find the jump system very smooth, part of our platformer. This is something that we took importance in, as we didn't use Mort's so we couldn't blame someone else. <br>
  - He gave us another aspect to take into consideration, such as "maybe more platformer levels or make it more difficult the more pearls you collect" <br>
 
