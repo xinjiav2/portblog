@@ -183,4 +183,7 @@ Now I believe there is one last thing... Self Grading... <br>
 
 Unfortunatly my login was disabled to find my statistics including with the grade calculator due to the backend breaking (and a 401 error even while providing correct password) <br>
 here's proof: <br> ![veryalttexting](backenderror.png) <br>
-However, I have already tested the grade calculator and viewed the dashboard, I don't have screenshots for this, however my N@tM comment was on this. (also derek kang showed me this so you can also ask him) <br> ![alt text](gradethingproof.png)
+However, I have already tested the grade calculator and viewed the dashboard, I don't have screenshots for this, however my N@tM comment was on this. (also derek kang showed me this so you can also ask him) <br> ![alt text](gradethingproof.png) <br>
+Sorry for the inconvienence! I hope this works just as well. <br>
+Here is also my contributions to nighthawkcoders just for refrence: <br>
+![alt text](nighthawkcoderse.png)
