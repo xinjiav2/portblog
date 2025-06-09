@@ -187,3 +187,17 @@ However, I have already tested the grade calculator and viewed the dashboard, I 
 Sorry for the inconvienence! I hope this works just as well. <br>
 Here is also my contributions to nighthawkcoders just for refrence: <br>
 ![alt text](nighthawkcoderse.png)
+
+
+# NEVERMIND IT WORKED HERES THE GRADE 
+ <br> 
+
+ ![alt text](image.png)
+ <br>
+
+ analytics: <br>
+ ![alt text](image-1.png)
+
+ so about the analytics, i have found that these are all regarding analytics I made with the github website, and it isint inclusive of the commits i made while using vscode.
+
+ 123Qwerty!
