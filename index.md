@@ -7,10 +7,11 @@ hide: true
 
 
 
-
+<!--
 Hello! Welcome for the blog for CSSE 2 that was totally not taken away from the blog in CSSE 1 ! <br>
 Welcome !
-
+-->
+Hello! I graduated from Mort's class, this site will no longer be maintained.
 
 <div style="display: flex; flex-wrap: wrap; gap: 10px;">
     <a href="{{site.baseurl}}/dt3" style="text-decoration: none;">
